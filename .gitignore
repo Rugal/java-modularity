@@ -1,0 +1,26 @@
+/target/
+.classpath
+.project
+.settings
+nb-configuration.xml
+*.swp
+*.log
+/design/
+/nbproject/
+/nbactions.xml
+.idea
+*.iml
+.DS_Store
+.factorypath
+.vscode
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+/maven-plugin/target/
+/main/target/
+/controller/target/
+/dao/target/
+/service/target/
+/entity/target/
+/dao-implementation/target/
