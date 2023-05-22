@@ -37,8 +37,8 @@
     <module>dao-implementation</module>
     <module>dao</module>
     <module>entity</module>
+    <module>jlink</module>
   </modules>
-
 
   <dependencyManagement>
     <dependencies>
@@ -50,10 +50,6 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs-annotations</artifactId>
     </dependency>
     <!-- Auto Append -->
   </dependencies>
@@ -118,7 +114,6 @@
           <release>${java.version}</release>
         </configuration>
       </plugin>
-
     </plugins>
 
     <pluginManagement>
